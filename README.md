@@ -1,47 +1,46 @@
 # Tryout APK
 
-Tryout is a free, offline-first Android app that helps young people show practical work-readiness skills to employers through a short retail work sample, scoring, proof-card sharing, and employer-side evaluation.
+This public repo is for distributing the Tryout Android APK for demo and judging use.
 
-## Why this app
+## Current status
 
-The app is designed to help young South Africans show what they can do instead of relying only on a CV. It supports:
+There are currently no published GitHub Releases in this repository yet.
 
-- 15-minute candidate work sample
-- Score-based feedback and practice guidance
-- Employer criteria and candidate matching
-- Shareable proof card / code for easy review
-- Offline-first local use without a server dependency
+The APK has not been uploaded here yet, so the releases page is empty.
 
-## Download the APK
+## How to publish the APK
 
-Download the latest public APK build from the releases page here:
+1. Open the private release for the app:
+   https://github.com/Shxnque/tryout/releases/tag/apk-6
+2. Download the APK file: `tryout-6-25e7f9e.apk`
+3. Open this repo in GitHub:
+   https://github.com/Shxnque/tryout-apk
+4. Click Releases
+5. Click Draft a new release
+6. Create a tag such as `apk-6`
+7. Upload the APK file
+8. Publish the release
 
-https://github.com/Shxnque/tryout-apk/releases
+Once published, the direct download link will be:
 
-If the repo has no release yet, upload the latest APK in GitHub Releases and it will show up as a direct downloadable file.
+https://github.com/Shxnque/tryout-apk/releases/download/apk-6/tryout-6-25e7f9e.apk
 
 ## Install
 
 1. Open the APK on an Android device.
-2. If prompted, allow installation from unknown sources.
+2. If asked, allow installation from unknown sources.
 3. Open the app and use it.
 
 No login is required.
 
-## Project status
+## Project source
 
-This public repo is dedicated to distributing the Android build for demo and judging use.
-
-The main application source remains in the private project repository:
+Main source code remains here:
 
 https://github.com/Shxnque/tryout
 
-## About the app
-
-Tryout was built for the FNB App of the Year Hackathon 2026 and focuses on youth employment and work readiness. The app helps employers evaluate practical ability using a short, structured retail work sample.
-
 ## Notes
 
-- The APK is intended for demo / sideload testing.
-- It is not a production Google Play build.
-- The app is designed to be installed and used offline.
+- This is for demo / sideload testing.
+- It is not a Google Play production build.
+- It is designed to be installed and used offline.
