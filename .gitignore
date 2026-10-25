@@ -1,0 +1,13 @@
+# Ignore common local and generated files
+
+node_modules/
+.expo/
+.expo-shared/
+.android/
+.ios/
+web-build/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
